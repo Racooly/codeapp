@@ -11,6 +11,7 @@ function Footer() {
           <Image src='/2.png' width ={15} height ={15} className={styles.icon} alt='insta'/>
           <Image src='/3.png' width ={15} height ={15} className={styles.icon} alt='X'/>
           <Image src='/4.png' width ={15} height ={15} className={styles.icon} alt='Youtube'/>
+          {/*es sheni davalebaa lukaa*/}
         </div>
     </div>
     
