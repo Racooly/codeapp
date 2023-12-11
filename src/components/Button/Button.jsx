@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './button.module.css'
 import Link from 'next/link'
 
-function Button(props) {
+function Button({ title, url}) {
   return (
-    <Link href={'/'}>
-        <button className={styles.button}>{props.title}</button>
+    <Link href={url}>
+        <button className={styles.button}>{title}</button>
     </Link>
   )
 }
