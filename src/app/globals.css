@@ -21,5 +21,17 @@ body {
 
 a{
   text-decoration: none;
-  color: black;
+  color: inherit;
+}
+
+.theme {
+  /* background-color: red; */
+}
+.dark{
+  background-color: #111 ;
+  color: #bbb;
+}
+.light{
+  background-color: white;
+  color: #111;
 }
